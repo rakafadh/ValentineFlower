@@ -13,10 +13,13 @@ body{
     background: radial-gradient(circle, #FF5E6C, #FFC0CB);
 }
 
+  
 .greetings{
-    font-family: 'Sharpie', sans-serif;
-    font-size: 6rem;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
     font-weight: 900;
+    font-size: 5rem;
+    font-style: normal; 
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
@@ -25,7 +28,8 @@ body{
 .comic-button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 24px;
+    font-family: montserrat;
+    font-size: 0.8rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -75,9 +79,9 @@ body{
 }
 
 .description{
-    font-family: 'Ranade', sans-serif;
+    font-family: montserrat;
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width:574px){
